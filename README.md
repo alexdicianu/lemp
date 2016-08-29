@@ -24,3 +24,7 @@ Add the following lines to your local hosts file in order for your computer to r
 ```
 
 Add a Drupal8 or Wordpress site to the `sites/` directory and you're done.
+
+```
+Here goes terminus command to add a site.
+```
