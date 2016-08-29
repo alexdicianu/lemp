@@ -1,4 +1,4 @@
-Argos
+Linux, Nginx, PHP-FPM, MariaDB
 =================
 
 A light Docker based sandbox image for PHP web development that is based on a Ubuntu 14.04 OS. 
@@ -20,7 +20,7 @@ $ docker-compose up -d
 Add the following lines to your local hosts file in order for your computer to recognize the docker hosts.
 
 ```
-127.0.0.1       drupal8.docker wordpress.docker db database
+127.0.0.1 drupal8.docker wordpress.docker db database
 ```
 
 Add a Drupal8 or Wordpress site to the `sites/` directory and you're done.
