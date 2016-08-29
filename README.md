@@ -23,8 +23,14 @@ Add the following lines to your local hosts file in order for your computer to r
 127.0.0.1 drupal8.docker wordpress.docker db database
 ```
 
-Add a Drupal8 or Wordpress site to the `sites/` directory and you're done.
+Add a Drupal8 or Wordpress site to the `sites/` directory and you're done. You can visit the site at either http://drupal8.docker:8088/ or http://wordpress.docker:8088/
 
 ```
-Here goes terminus command to add a site.
+Here goes terminus command to add a site. Database credentials are:
+
+host: db
+user: root
+password: root
+port: 3306
 ```
+
