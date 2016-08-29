@@ -1,0 +1,26 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon
+
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+.sass-cache
+
+# Logs and databases #
+######################
+*.log
+*.sql
+db_backups
+
+# The working directory #
+######################
+#/sites/*

@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  web:
+    build: web
+    ports:
+     - "8088:8088"
+    volumes:
+     - ./sites/drupal8:/var/www/html/drupal8
+     - ./sites/wordpress:/var/www/html/wordpress
+    links:
+     - "db:database"
+
+  mysqldata:
+    build: mysqldata
+
+  db:
+    build: mysql
+    ports:
+     - "3306:3306"
+    volumes_from:
+     - mysqldata
