@@ -34,3 +34,8 @@ password: root
 port: 3306
 ```
 
+## One liner install
+
+```
+curl -O https://gist.githubusercontent.com/alexdicianu/350b5db4e78573793673b90711cb7398/raw/74347335b24af503f6a2b901c4dd46edbe980138/install.sh && chmod +x install.sh && ./install.sh
+```
