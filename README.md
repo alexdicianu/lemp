@@ -10,12 +10,7 @@ This image with comes built with nginx, PHP-FPM, Drush, MySQL.
 ## Getting Started
 1. Install docker, as explained here: https://docs.docker.com/engine/installation/
 2. Clone this repo locally (branch packaged) and go the cloned folder.
-3. Run the following command for initializing the configuration: 
-
-```
-$ docker-compose up -d
-```
-
+3. Run the following command for initializing the configuration: `$ docker-compose up -d`
 4. Add the following lines to your local hosts file in order for your computer to recognize the docker hosts.
 
 ```
